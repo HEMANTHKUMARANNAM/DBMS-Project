@@ -18,10 +18,10 @@ function submitForm() {
     // Output checked values (for demonstration)
     console.log("Checked values: " + checkedValues.join(", "));
 
-    var attendenceDay = document.getElementById("Attendence day").value;
+    var attendenceDay = document.getElementById("attendanceDay").value;
     
     // Get the value of the "Student attendence visibility" input
-    var studentVisibility = document.getElementById("Student attendance visibility").value;
+    var studentVisibility = document.getElementById("studentAttendanceVisibility").value;
 
     // Display the values (you can do anything you want with them)
     console.log("Attendence day:", attendenceDay);
